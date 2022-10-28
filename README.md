@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Pair programing Corwin, Ainis, Jaques!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+happy haloween!🎃
 
 ## Available Scripts
 
