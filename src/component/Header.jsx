@@ -14,17 +14,19 @@ function Header() {
 
 
   }
+  
 
 
   
     return(
     <>
     <button className="but-1" onClick={() => getApi()}>Get Clothes</button>
-    
-    
-    
-    
-    </>
+    {clothingList && clothingList.map(cloth =>{
+      return  <h1>{cloth.brand}</h1>
+    }) }
+</>
+
+
  )
 
 }

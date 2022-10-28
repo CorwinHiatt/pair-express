@@ -1,5 +1,5 @@
 
-import Clothing from './component/Clothing';
+// import Clothing from './component/Clothing';
 import Header from './component/Header';
 import './App.css';
 
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header"> 
       <Header/>
-      <Clothing/>
+      {/* <Clothing/> */}
 
   
       </header>
