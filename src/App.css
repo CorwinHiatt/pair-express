@@ -8,7 +8,7 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .but-1 {
     animation: App-logo-spin infinite 20s linear;
   }
 }
@@ -28,11 +28,24 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+@keyframes  but-1 {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+}
+.but-1{
+  padding: 100px;
+  color: aliceblue;
+ background-color: rgba(242, 69, 179, 0.914)  ;
+  box-shadow: 5px 5px 7px 0px rgb(244, 153, 202);
+  size: large;
+  border: solid rgb(180, 102, 239) 3.2mm ;
+  border-right-color: #bd2aee;
+  border-radius: 30px;
+  border-spacing: 100mm;
+  padding: 5mm 5mm 5mm 5mm;
+  animation: infinite 20s linear ;
 }
